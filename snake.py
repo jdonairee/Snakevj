@@ -21,7 +21,7 @@ colors=['gray','blue','yellow','purple','green']
 snakecol=random.choice(colors)
 fruitcol=random.choice(colors)
 if snakecol==fruitcol:
-    fruitcol==randomchoice(colors)
+    fruitcol==random.choice(colors)
 
 def change(x, y):
     """Change snake direction."""
